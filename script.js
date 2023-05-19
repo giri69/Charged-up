@@ -25,23 +25,31 @@ function calculateBMI() {
 
   document.getElementById("result").innerHTML =
     "Your BMI is: " + bmi.toPrecision(4);
-  if (bmi < 18) {
+  if (bmi < 19) {
     //weight gain
     document.getElementById("out").innerText =
       "According to your BMI you should try to 'GAIN WEIGHT'";
     document.getElementById("next").innerHTML =
-      "<a href='index.html'><button >NEXT</button></a>";
-  } else if (bmi >= 18 && bmi <= 24) {
+      "<a href='exercise.html'><button >NEXT</button></a>";
+  } 
+  else if (bmi>=22 && bmi<=24) {
+    //weight gain
+    document.getElementById("out").innerText =
+      "According to your BMI you should try to 'CUT'";
+    document.getElementById("next").innerHTML =
+      "<a href='exercise.html'><button >NEXT</button></a>";
+  }
+  else if (bmi >= 19 && bmi < 22) {
     //bulk
     document.getElementById("out").innerText =
       "According to your BMI you should try to 'BULK'";
     document.getElementById("next").innerHTML =
-      "<a href='index.html'><button  >NEXT</button></a>";
+      "<a href='exercise.html'><button  >NEXT</button></a>";
   } else {
     //weight losss
     document.getElementById("out").innerText =
       "According to your BMI you should try to 'WEIGHT LOSS'";
     document.getElementById("next").innerHTML =
-      "<a href='index.html'><button >NEXT</button></a>";
+      "<a href='exercise.html'><button >NEXT</button></a>";
   }
 }

@@ -210,7 +210,7 @@ button {
   font-size: 16px;
   margin: 10px 0;
   border: none;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid black;
   outline: nb;
 }
 
@@ -256,4 +256,189 @@ button {
 }
 textarea {
   background-color: gray;
+}
+.btn :hover {
+  background: red;
+}
+.first h2 {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.partition {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  /* flex-wrap: wrap; */
+}
+.partition :hover {
+  color: red;
+  border-radius: 50%;
+}
+.partition2 :hover {
+  color: red;
+  border-radius: 50%;
+}
+.partition3 :hover {
+  color: red;
+  border-radius: 50%;
+}
+
+.partition2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  /* flex-wrap: wrap; */
+}
+
+.partition3 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  /* flex-wrap: wrap; */
+}
+
+.things img {
+  /* display: inline-flex; */
+  /* margin-left: 200px; */
+  /* margin-top: 50px; */
+}
+.things a {
+  color: red;
+  display: block;
+  /* margin-left: 275px;
+  font-size: 25px; */
+}
+
+.abs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.abs a {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.chest {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.chest a {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.back {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.back a {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.Legs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.Legs a {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.shoulder {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.shoulder a {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.biceps {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.biceps a {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.triceps {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.triceps a {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.forearms {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.forearms a {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.fullbody {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.fullbody a {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.exe {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+
+.robo {
+  display: flex;
+  justify-content: space-around;
+}
+.robo img {
+  margin-top: 30px;
+  align-items: center;
+  margin-left: 0;
+}
+.robo a {
+  text-decoration: underline;
+  display: flex;
+  font-size: 18px;
+  margin-top: 10px;
+  color: red;
+}
+.robo :hover {
+  border-radius: 50%;
+}
+
+.exeName {
+  flex-direction: column;
+}
+
+.exeName .crunches {
+  margin-left: 50px;
+}
+
+.exeName .twistinghips {
+  margin-left: 40px;
+}
+
+.exeName .sidebents {
+  margin-left: 50px;
 }
