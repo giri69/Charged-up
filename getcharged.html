@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="script.js" />
+    <style>
+      .box {
+        margin: 140px 461px;
+        background-color: #0f0e11;
+        color: rgb(227, 217, 217);
+        border-radius: 10px;
+        border-color: rgb(153, 17, 17);
+        height: 450px;
+        text-align: center;
+        font-size: 20px;
+        border-style: dotted;
+      }
+
+      .wg {
+        text-align: center;
+        margin-top: 40px;
+        color: rgb(185, 172, 153);
+        text-transform: capitalize;
+        font-size: 29px;
+        border-style: dotted;
+        border-width: 3px;
+        color: blue;
+        border-color: rgb(153, 17, 17);
+      }
+      #height {
+        font-size: 23px;
+        border-style: none;
+      }
+      #weight {
+        font-size: 23px;
+        border-style: none;
+      }
+      #bmi {
+        color: blue;
+        font-size: 18px;
+        margin-top: 14px;
+        background-color: #0f0e11;
+        font-style: initial;
+        border-style: dotted;
+        border-color: #d22d2d;
+      }
+      main {
+        /* background-image: url("image1.jpg"); */
+        opacity: 100%;
+        width: 100vw;
+        height: 100vh;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!--- header section starts-->
+    <header class="header">
+      <a href="#" class="logo"><span>CHARGED</span>UP</a>
+      <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="about.html">about</a>
+        <a href="#contact us">contact us</a>
+        <a href="#social media">social media</a>
+        <a href="#feedback">feedback</a>
+        <a href="motioncapture.html">Motion capture</a>
+      </nav>
+    </header>
+    <main>
+      <div class="box">
+        <h1
+          style="
+            text-align: center;
+            margin-top: 14px;
+            color: blue;
+            text-transform: capitalize;
+          "
+        >
+          BMI Calculator
+        </h1>
+        <br />
+        <div class="wg">
+          <label for="weight">Weight (in kilograms):</label>
+          <br />
+          <input type="text" id="weight" placeholder="Enter Here" />
+          <br />
+
+          <label for="height" placeholder="Enter Height(in m)"
+            >Height (in meters):</label
+          >
+          <br />
+          <input type="text" id="height" placeholder="Enter Here" />
+          <br />
+        </div>
+
+        <button id="bmi" onclick="calculateBMI()">PROCEED</button>
+
+        <div id="result"></div>
+        <div id="out"></div>
+        <div id="next"></div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+    <footer></footer>
+  </body>
+</html>

@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&family=Nunito:ital,wght@0,300;0,400;0,700;1,200;1,300;1,400;1,500&display=swap");
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all.2s linear;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+
+  scroll-padding-top: 5rem;
+  overflow-x: hidden;
+
+  &::-webkit-scrollbar {
+    width: 1rem;
+  }
+  &::-webkit-scrollbar-track {
+    background: black;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: red;
+  }
+}
+body {
+  background-color: black;
+}
+section {
+  padding: 5rem 9%;
+}
+
+.header {
+  position: sticky;
+  z-index: 2;
+  opacity: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 9%;
+  background: black;
+}
+.logo {
+  font-weight: bolder;
+  color: white;
+  font-size: 3.5rem;
+}
+span {
+  color: blue;
+}
+.navbar a {
+  display: inline-block;
+  padding: 2rem 2.5rem;
+  font-size: 1.7rem;
+  color: white;
+}
+.navbar a:hover {
+  background: blue;
+}
+
+.home {
+  padding: 0;
+  margin-top: 6.5rem;
+}
+.slide {
+  min-height: 70vh;
+  background-size: cover !important;
+  background-position: center !important;
+  padding: 3rem 9%;
+  display: flex;
+  align-items: center;
+}
+.content {
+  width: 60rem;
+}
+.content span {
+  font-size: 3rem;
+  color: blue;
+  display: block;
+}
+.content h3 {
+  font-size: 5rem;
+  color: white;
+  padding: 1rem 0;
+}
+.content h2 span {
+  text-align: center;
+}
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  padding-right: 3rem;
+  background: linear-gradient(130deg, red 90%, transparent 100%);
+  color: white;
+  cursor: pointer;
+  font-size: 1.8rem;
+}
+/* .neo {
+  font-size: 12px;
+  background-color: none;
+  color: blue;
+} */
+#next {
+  color: blue;
+  font-size: 18px;
+  margin-top: 14px;
+  background-color: #0f0e11;
+  font-style: initial;
+  /* border-style: dotted;
+  border-color: #d22d2d; */
+}
+.btn :hover {
+  transform: scale(1.5);
+}
+.swiper-pagination-bullet {
+  height: 2rem;
+  width: 2rem;
+  background: white;
+  border-radius: 5px;
+  transition: 2s;
+  &.swiper-pagination-bullet-active {
+    background: blue;
+  }
+}
+.text p {
+  color: white;
+  font-size: 2rem;
+}
+.text span {
+  font-size: 3rem;
+}
+.inputBox1 {
+  margin: 2px;
+}
+.inputBox2 {
+  margin: 2px;
+}
+.inputBox3 {
+  margin: 2px;
+}
+.contactForm h2 span {
+  font-size: 30px;
+}
+.contact .content p {
+  color: white;
+  font-size: 400 px;
+}
+.contactForm span {
+  font-size: 20px;
+}
+.content p {
+  font-size: 25px;
+}
+.contactForm {
+  margin-left: 200px;
+}
+form {
+  color: grey;
+}
+
+.contact {
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact.content {
+  max-width: 800px;
+  text-align: center;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+button {
+  size: 80px;
+  border-radius: 30%;
+  padding: 1.8%;
+  background: blue;
+  color: white;
+}
+
+.contactForm {
+  width: 40%;
+  padding: 40px;
+  background-color: black;
+}
+.contactForm .inputBox1.inputBox2.inputBox3 {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+.contactForm .inputBox1.inputBox2.inputBox3 input {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: nb;
+}
+
+.icon {
+  color: white;
+  min-width: 10px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+.media span {
+  font-size: 40px;
+}
+.media h3 {
+  color: white;
+  font-size: 20px;
+}
+.ion {
+  color: white;
+  font-size: large;
+}
+.id input {
+  width: 100%;
+  height: 51px;
+  margin: 4px 0;
+  border: 1px solid gray;
+  border-radius: 3px;
+  background: grey;
+  padding: 0 15px;
+  font-size: 20px;
+}
+.feedback textarea {
+  background: grey;
+}
+.pic {
+  display: inline;
+  color: white;
+
+  font-size: 20px;
+}
+textarea {
+  background-color: gray;
+}
