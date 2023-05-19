@@ -45,7 +45,8 @@ function calculateBMI() {
       "According to your BMI you should try to 'BULK'";
     document.getElementById("next").innerHTML =
       "<a href='exercise.html'><button  >NEXT</button></a>";
-  } else {
+  } else if(bmi>24)
+  {
     //weight losss
     document.getElementById("out").innerText =
       "According to your BMI you should try to 'WEIGHT LOSS'";
