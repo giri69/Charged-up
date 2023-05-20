@@ -495,3 +495,18 @@ ol {
   list-style-type: disc;
   color: white;
 }
+.title h3 {
+  font-size: 40px;
+  color: white;
+}
+.box h3 {
+  font-size: 40px;
+}
+.title p {
+  color: white;
+}
+.look {
+  float: right;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,72 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="script.js" />
+    <title>motion capture</title>
+    <style>
+      .vdoMain {
+        display: flex;
+        flex-direction: column;
+      }
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="script.js" />
-  <title>motion capture</title>
-  <style>
-    .vdoMain {
-      display: flex;
-      flex-direction: column;
-    }
+      .vdo {
+        margin-top: -55px;
+        margin-left: 402px;
+      }
 
-    .vdo {
-      margin-top: -55px;
-      margin-left: 402px;
-    }
+      .vdotxt {
+        float: right;
+        font-size: 13px;
+        margin-top: -25px;
+        height: 401px;
+        width: 1535px;
+        text-transform: capitalize;
+        color: white;
+      }
+    </style>
+  </head>
 
-    .vdotxt {
-      float: right;
-      font-size: 13px;
-      margin-top: -25px;
-      height: 401px;
-      width: 1535px;
-      text-transform: capitalize;
-      color: white;
-    }
-  </style>
+  <body>
+    <!--- header section starts-->
+    <header class="header">
+      <a href="#" class="logo"><span>CHARGED</span>UP</a>
+      <nav class="navbar">
+        <a href="index.html">home</a>
+      </nav>
+    </header>
+    <main>
+      <div class="vdoMain">
+        <div class="vdo">
+          <video controls width="700" height="600" autoplay muted loop>
+            <source src="gym.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="vdotxt">
+          <p style="color: white; font-size: 40px">COMING SOON........</p>
+          <p></p>
 
-</head>
-
-<body>
-  <!--- header section starts-->
-  <header class="header">
-    <a href="#" class="logo"><span>CHARGED</span>UP</a>
-    <nav class="navbar">
-      <a href="index.html">home</a>
-    </nav>
-  </header>
-  <main>
-
-    <div class="vdoMain">
-
-      <div class="vdo">
-
-        <video controls width="700" height="600" autoplay muted loop>
-          <source src="gym.mp4" type="video/mp4" />
-        </video>
+          <p style="color: grey; font-size: 14px; margin-left: 20px">
+            a unique collaboration of IOT, computer vision & practical coading
+            skills
+          </p>
+          <p style="color: grey; font-size: 14px; margin-left: 20px">
+            Currently we are working on this technology, which can detect error
+            in the posture of user performing the excersies.
+          </p>
+          <br />
+          <br />
+          <ul
+            type="square"
+            style="color: white; font-size: 21px; margin-left: 109px"
+          >
+            <li type="square">Properly analyse and track your movements.</li>
+            <li type="square">
+              Tells the most effective way to performing an excersise using
+              advanced technology of computer vision.
+            </li>
+            <li type="square">
+              Improve your reflexes and makes you quick & grow effectively.
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="vdotxt">
-        <p style="color: white; font-size: 40px;">COMING SOON........<p>
-        
-        <p style="color: grey; font-size: 14px; margin-left: 20px;">a unique collaboration of IOT, computer vision & practical coading skills</p>
-        <p style="color: grey; font-size: 14px; margin-left: 20px;">Currently working on this technology, which can detect error in the posture of user performing the excersies.</p>
-        <br/>
-        <br/>
-        <ul type="square" style="color: white; font-size: 21px ; margin-left: 109px;">
-          <li type="square">Properly analyse and track your movements.</li>
-          <li type="square">Tells the most effective way to performing an excersise using advanced technology of computer vision.</li>
-          <li type="square">Improve your reflexes and makes you quick & grow effectively.</li>
-        </ul>
-      </div>
-
-    </div>
-
-  </main>
-</body>
-
+    </main>
+  </body>
 </html>
