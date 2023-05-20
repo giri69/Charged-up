@@ -442,3 +442,56 @@ textarea {
 .exeName .sidebents {
   margin-left: 50px;
 }
+.crunsh {
+  color: white;
+  font-size: 20px;
+}
+.vedio {
+  margin-left: 460px;
+}
+.background {
+  height: 300px;
+  width: px;
+  background-color: white;
+}
+.bot {
+  display: inline;
+  margin-left: 200px;
+}
+.bot2 {
+  display: inline;
+  margin-left: 130px;
+}
+.bot3 {
+  display: inline;
+  margin-left: 130px;
+}
+.bot img {
+  border-radius: 50%;
+}
+.bot2 img {
+  border-radius: 50%;
+}
+.bot3 img {
+  border-radius: 50%;
+}
+.sizes {
+  color: white;
+  font-size: 20px;
+}
+footer {
+  margin-left: 100px;
+  margin-top: 220px;
+}
+ul {
+  color: blue;
+  font-size: 27px;
+  list-style-type: none;
+}
+ol {
+  margin-bottom: 30px;
+  margin-left: 100px;
+  font-size: 20px;
+  list-style-type: disc;
+  color: white;
+}
